@@ -4,9 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>12-css-pseudo-classes</title>
+    <title>Pseudo Classes</title>
+
+    <style>
+        .myList li:nth-of-type(2):hover {
+            color: #fff;
+            background: red;
+        }
+        .myList li:first-child {
+            font-size: 32px;
+        }
+        .myList li:nth-of-type(3n) {
+            color: green;
+        }
+        .myList li:last-child {
+            text-transform: uppercase;
+        }
+    </style>
+
 </head>
 <body>
+    <h1>Funky List Items</h1>
+    <ul class="myList">
+        <li>Item one</li>
+        <li>Item two</li>
+        <li>Item three</li>
+        <li>Item four</li>
+        <li>Item five</li>
+        <li>Item six</li>
+        <li>Item seven</li>
+        <li>Item eight</li>
+        <li>Item nine</li>
+        <li>Item ten</li>
+    </ul>
     
 </body>
 </html>
