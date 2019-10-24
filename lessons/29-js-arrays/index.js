@@ -36,7 +36,7 @@ function map(arr, func) {
     }
     return newArr;
        
-};
+}
   
 const result = map([1, 2, 3], function(item) {
     return item * 2;
